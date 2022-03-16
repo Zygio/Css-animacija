@@ -6,19 +6,10 @@
     background-image: url('./img/jura.jpg');
     background-size: cover;
 }
-@keyframes fonas{
-    from{
-        filter: brightness(100%)
 
-    }
-    to{
-        filter: brightness(50%)
-
-    }
-}
 .saule{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: rgb(245, 241, 16);
     border-radius: 50%;
     position: relative;
@@ -56,7 +47,7 @@
     position: absolute; 
     /* arba position: absolute */
     /* šita pozicija gryš, kai animacija baigsis */
-    top: 30%;
+    top: 80%;
     left: 0%;
     animation-duration: 8s;
     animation-name: plaukia;
